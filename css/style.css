@@ -1667,7 +1667,8 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .banner-main .carousel-caption h1 {
-	color: #fff;
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.8);
 	font-size: 70px;
 	line-height: 70px;
 	font-weight: bold;
@@ -1764,18 +1765,21 @@ input[type="radio"] .styled:checked+label::after {
 }
 
 .about .titlepage span {
-	color: # 3d3c3c;
+	color: #3d3c3c;
 	font-size: 17px;
 	line-height: 30px;
 }
 
-.about .img-box {
+.about .img-box span{
+	padding-left: 100 px;
 	text-align: center;
 }
 
-.about .img-box figure {
-	margin: 0;
-	margin-bottom: 60px;
+.about .img-box img {	
+	margin: 10px 10px 10px 0px;
+	width: 100%;
+	height: 400;
+	float: left;
 }
 
 .about .img-box a {
@@ -1789,6 +1793,7 @@ input[type="radio"] .styled:checked+label::after {
 	font-size: 17px;
 	line-height: 30px;
 	color: #fff;
+	text-align: center;
 }
 
 .about .img-box a:hover {
@@ -1802,29 +1807,30 @@ input[type="radio"] .styled:checked+label::after {
 
 /** service section **/
 
-.service {
+.project {
 	padding-top: 90px;
 	padding-bottom: 60px;
 	background: #f4f4f4;
 }
 
-.service .titlepage span {
-	color: # 3d3c3c
+.project .titlepage span {
+	color: #3d3c3c
 }
 
-.service .service-box figure {
+.project .service-box figure {
 	margin: 0px;
 }
 
-.service .service-box figure img {
+.project .service-box figure img {
 	width: 100%;
+	height: 200px;
 }
 
 .green {
 	background-color: #6fb936;
 }
 
-.service .service-box .hoverle {
+.project .service-box .hoverle {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1837,17 +1843,19 @@ input[type="radio"] .styled:checked+label::after {
 	margin: 0 15px;
 }
 
-.service .service-box .hoverle a {
+.project .service-box .hoverle a {
 	padding: 5px 30px;
 	color: #40cfa4;
+	font-weight: bolder;
+	font-size:x-large;
 }
 
-.service .titlepage {
+.project .titlepage {
 	text-align: center;
 	padding-bottom: 50px;
 }
 
-.service .titlepage h2 {
+.project .titlepage h2 {
 	padding: 0px 0px 6px 0px;
 	font-size: 40px;
 	font-weight: bold;
@@ -1860,7 +1868,7 @@ input[type="radio"] .styled:checked+label::after {
 	margin-bottom: 20px;
 }
 
-.service .service-box:hover .hoverle {
+.project .service-box:hover .hoverle {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1874,7 +1882,7 @@ input[type="radio"] .styled:checked+label::after {
 	margin: 0 15px;
 }
 
-.service .service-box:hover .hoverle a {
+.project .service-box:hover .hoverle a {
 	border: #fff solid 2px;
 	background: transparent;
 	padding: 5px 30px;
@@ -1937,24 +1945,28 @@ img.zoom {
 /** end service section **/
 
 
-/** download section **/
+/** media section **/
 
-.download {
+.media {
 	padding-top: 90px;
 	padding-bottom: 90px;
 	background: #fff;
 }
 
-.download .titlepage {
+.media img {
+	height: 400px;
+}
+
+.media .titlepage {
 	padding-bottom: 60px;
 	text-align: center;
 }
 
-.download .titlepage span {
+.media .titlepage span {
 	color: # 3d3c3c
 }
 
-.download .titlepage h2 {
+.media .titlepage h2 {
 	padding: 0px 0px 6px 0px;
 	font-size: 40px;
 	font-weight: bold;
@@ -2024,7 +2036,7 @@ img.zoom {
 }
 
 
-/** end download section **/
+/** end media section **/
 
 .testimonial {
 	background: #0fc690;

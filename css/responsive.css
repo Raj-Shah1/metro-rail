@@ -204,12 +204,13 @@
         bottom: 0;
     }
     .banner-main .carousel-caption h1 {
-        color: #fff;
+        color: #000;
         font-size: 59px;
         line-height: 60px;
         font-weight: bold;
     }
     .banner-main .carousel-caption p {
+        color: #000;
         font-size: 17px;
         padding: 9px 0px 18px 0px;
     }
@@ -276,7 +277,7 @@
     .mean-last {
         display: none;
     }
-    .download .titlepage h2 {
+    .media .titlepage h2 {
         font-size: 35px;
     }
     .testimonial .contact {
@@ -350,7 +351,7 @@
         font-size: 26px;
         width: 274px;
     }
-    .download .titlepage h2 {
+    .media .titlepage h2 {
         font-size: 21px;
         line-height: 13px;
     }
